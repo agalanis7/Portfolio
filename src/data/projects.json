@@ -1,0 +1,14 @@
+{
+  "allProjects": [
+    {
+      "title": "G2P",
+      "imgName": "iron-man",
+      "description": "React app that uses axios to pull data from 2 API's to render a map with restrooms near you based on geolocation"
+    },
+    {
+      "title": "Tag Along",
+      "imgName": "gambit",
+      "description": "React on Rails app that allows users to schedule and join pickup sports games"
+    }
+  ]
+}
