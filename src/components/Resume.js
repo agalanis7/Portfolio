@@ -15,7 +15,14 @@ export default class Resume extends Component{
 Junior Developer with finance and project management background.
 
 <h2>EXPERIENCE</h2>
-<h3>Project Manager, Daystar Contracting, LLC, Joppa, MD —2012 - 2018</h3>
+<h3>Full Stack Web Developer Intern, Miami Dev Shop, Miami, FL, 2018 - 2019</h3>
+<h4>Assist senior developers on production web applications</h4>
+    <ul>
+        <li>Build components in React.js</li>
+        <li>Style elements in HTML and CSS</li>
+        <li>Learn Node.js</li>
+    </ul>
+<h3>Project Manager, Daystar Contracting, LLC, Joppa, MD, 2012 - 2018</h3>
 <h4>Manage all aspects of residential construction projects, including:</h4>
     <ul>
         <li>Budgeting</li>
@@ -23,7 +30,7 @@ Junior Developer with finance and project management background.
         <li>Personnel management</li>
         <li>Customer relationship management</li>
     </ul>
-<h3>Staff Accountant, Affinity Mortgage Corp., Bel Air, MD — 2006 - 2012</h3>
+<h3>Staff Accountant, Affinity Mortgage Corp., Bel Air, MD, 2006 - 2012</h3>
     <ul>
         <li>Manage AR/AP</li>
         <li>Reconcile bank Statements</li>
