@@ -41,8 +41,8 @@ export default class Contact extends Component{
                             </a>
                         </div>
                         <div>
-                            <a href="https://twitter.com/@GalanisAndreas" target="_blank">
-                                <i class="fab fa-twitter-square fa-3x"></i>
+                            <a href="https://www.linkedin.com/in/agalanis7/" target="_blank">
+                                <i class="fab fa-linkedin-square fa-3x"></i>
                             </a>
                         </div>
                         <div>

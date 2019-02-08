@@ -8,16 +8,18 @@ import Resume from './components/Resume'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Projects from './components/Projects'
+import Carousel from './components/Carousel'
 
 class App extends Component {
   render() {
     return (
       <div id="app">
         <div>
-          <Navbar />
+          <Navbar/>
+          <Carousel/>
           <Home/>
           <AboutMe/>
-          <Projects />
+          <Projects/>
           <Resume/>
           <Contact/>
         </div>
