@@ -6,8 +6,10 @@
     "radium": "^0.25.1",
     "react": "^16.2.0",
     "react-coverflow": "^0.2.18",
-    "react-dom": "^16.2.0",
-    "react-scripts": "1.0.17"
+    "react-dom": "^16.8.1",
+    "react-scripts": "1.0.17",
+    "react-slick": "^0.23.2",
+    "slick-carousel": "^1.8.1"
   },
   "scripts": {
     "start": "react-scripts start",

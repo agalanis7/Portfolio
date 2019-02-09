@@ -10,14 +10,15 @@ import Footer from './components/Footer'
 import Projects from './components/Projects'
 import Carousel from './components/Carousel'
 
+
 class App extends Component {
   render() {
     return (
       <div id="app">
         <div>
           <Navbar/>
-          <Carousel/>
           <Home/>
+          <Carousel/>
           <AboutMe/>
           <Projects/>
           <Resume/>

@@ -1,39 +1,45 @@
-import React,  { Component } from 'react';
-import ReactDOM from 'react-dom';
-import Coverflow from 'react-coverflow';
-import { StyleRoot } from 'radium';
+import React, { Component } from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
+export default class SimpleSlider extends Component {
+  render() {
+    const settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    };
+    return (
+      <div>
+        <h2> Single Item</h2>
+        <Slider {...settings}>
+          <div>
+            <h3>
+            Hello
 
 
-export default class Carousel extends Component{
-    render(){
-        return(
-ReactDOM.render(
-  <StyleRoot>
-    <Coverflow
-      displayQuantityOfSide={2}
-      navigation
-      infiniteScroll
-      enableHeading
-      media={{
-        '@media (max-width: 900px)': {
-          width: '600px',
-          height: '300px'
-        },
-        '@media (min-width: 900px)': {
-          width: '960px',
-          height: '600px'
-        }
-      }}
-    >
-      <img src='images/album-1.png' alt='Album one' data-action="https://facebook.github.io/react/"/>
-      <img src='images/album-2.png' alt='Album two' data-action="http://passer.cc"/>
-      <img src='images/album-3.png' alt='Album three' data-action="https://doce.cc/"/>
-      <img src='images/album-4.png' alt='Album four' data-action="http://tw.yahoo.com"/>
-    </Coverflow>
-  </StyleRoot>
-  ,
-  document.querySelector('.example_2')
-        )
-        )
-    }
+            </h3>
+          </div>
+          <div>
+            <h3>2</h3>
+          </div>
+          <div>
+            <h3>3</h3>
+          </div>
+          <div>
+            <h3>4</h3>
+          </div>
+          <div>
+            <h3>5</h3>
+          </div>
+          <div>
+            <h3>6</h3>
+          </div>
+        </Slider>
+      </div>
+    );
+  }
 }
