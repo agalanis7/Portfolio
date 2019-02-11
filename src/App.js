@@ -20,8 +20,8 @@ class App extends Component {
           <Home/>
           <Carousel/>
           <AboutMe/>
-          <Projects/>
-          <Resume/>
+          {/* <Projects/> */}
+          {/* <Resume/> */}
           <Contact/>
         </div>
       </div>

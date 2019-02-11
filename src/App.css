@@ -21,6 +21,10 @@ body {
 }
 h1 {
   font-family: 'Contrail One', cursive;
+  text-align: center;
+}
+carouselTitle {
+  font-size: 30px;
 }
 p {
   text-align: justify;
@@ -114,11 +118,16 @@ MAIN (#about-me)
 ******************************************************/
 #about-me {
   padding-top: 10px;  /* as opposed to margin-top which doesn't work*/
+  padding-bottom: 20px;
   text-align: center;
-  background-color: burlywood
+  color: white;
+  font-size: 20px;
+  background-image: url("https://res.cloudinary.com/dre/image/upload/v1547748233/me.jpg"); 
+  
 }
 #about-me div {
   margin: 0 10%;
+  opacity: 1;
 }
 
 /******************************************************

@@ -10,10 +10,10 @@ export default class Contact extends Component{
                     </a>
                     <header>
                         <h1>Contact Me</h1>
-                        <p>Please feel free to drop a line with compliments and good vibes!</p>
+                         <p></p>
                     </header>
 
-                    <form action="#" method="post">
+                    {/*<form action="#" method="post">
                         <div class="form-field">
                             <label for="user_name">Name</label> 
                             <input type="text" name="user_name" required=""></input>
@@ -28,12 +28,12 @@ export default class Contact extends Component{
                             
                             {/* <input type="message" name="message" required=""></input> */}
                             {/* <div class="form-field"> */}
-                            <textarea name="message"></textarea>
+                           {/* <textarea name="message"></textarea>
                         </div>
                         {/* </div> */}
-                        <button class="submit-button" type="submit">Submit</button> 
+                        {/*<button class="submit-button" type="submit">Submit</button> 
                         
-                    </form>
+                    </form> */}
                     <footer id="footer">
                         <div>
                             <a href="https://facebook.com/drenomaly" target="_blank">

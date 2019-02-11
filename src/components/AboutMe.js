@@ -9,12 +9,7 @@ export default class AboutMe extends Component{
       </a>
       <h1>About Me</h1>
 
-      <picture>
-      <source media="(min-width: 300px)" srcset="https://res.cloudinary.com/dre/image/upload/v1547748233/me.jpg"></source>  
-      <source media="(min-width: 500px)" srcset="https://res.cloudinary.com/dre/image/upload/v1547748233/me.jpg"></source>
-      <img src="https://res.cloudinary.com/dre/image/upload/v1547748233/me.jpg" alt="my profile picture"/>
-      </picture>
-
+    
       <div>
         <p>I graduated from The University of Maryland, College Park with a BS in Finance in 2006.  
             After that I went to work for a mortgage company as a staff accountant and office manager.  
