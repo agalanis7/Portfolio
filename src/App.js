@@ -11,6 +11,7 @@ import Projects from './components/Projects'
 import Carousel from './components/Carousel'
 
 
+
 class App extends Component {
   render() {
     return (
@@ -18,10 +19,8 @@ class App extends Component {
         <div>
           <Navbar/>
           <Home/>
-          <Carousel/>
+          <Projects/>
           <AboutMe/>
-          {/* <Projects/> */}
-          {/* <Resume/> */}
           <Contact/>
         </div>
       </div>

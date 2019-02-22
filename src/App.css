@@ -23,11 +23,32 @@ h1 {
   font-family: 'Contrail One', cursive;
   text-align: center;
 }
+h2 {
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+  padding-left: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+h4 {
+  font-size: 20px;
+  font-style: italic;
+  padding-left: 10px;
+  
+}
+
 carouselTitle {
   font-size: 30px;
 }
 p {
   text-align: justify;
+  padding-left: 10px;
+  font-size: 15px;
 }
 i {
   float: right;
@@ -43,6 +64,7 @@ NAVIGATION
 ******************************************************/
 nav {
   background-color: #1B2355;
+  padding-top: 5px;
 }
 
 nav h1, nav a, nav a:visited {
@@ -138,6 +160,7 @@ PROJECTS
   text-align: center;
   box-sizing: border-box;
   border: 1px solid #000;
+  max-width: 100;
 }
 #projects header {
   padding: 0 10%;
@@ -154,7 +177,7 @@ div.portfolio-img {
 }
 
 section#projects > div {
-  /* padding: 10px 0 10px 0; */
+  padding: 10px 0 10px 0; 
 }
 
 section#projects > div:nth-child(odd) {
@@ -164,6 +187,11 @@ section#projects > div:nth-child(odd) {
 section#projects > div:nth-child(even) {
   background-color: rgba(4, 105, 122, 0.288)
 }
+
+#projects video {
+  max-width: 100%;
+}
+
 
 div.iron-man {
   background-image: url(./images/me.jpg);
