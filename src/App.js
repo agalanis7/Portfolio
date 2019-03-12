@@ -8,7 +8,7 @@ import Resume from './components/Resume'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Projects from './components/Projects'
-import Carousel from './components/Carousel'
+import SimpleSlider from './components/SimpleSlider'
 
 
 
@@ -21,6 +21,7 @@ class App extends Component {
           <Home/>
           <Projects/>
           <AboutMe/>
+          <SimpleSlider/>
           <Contact/>
         </div>
       </div>
